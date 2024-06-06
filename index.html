@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comptible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Sayed - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cd95713ee5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/usethislogo (1).png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>VMO Admin | Graphical Designer | UI/UX Designer</p>
+            <h1>Hi, I am <span>Aman Sayed</span></h1>
+        </div>
+    </div>
+</div>
+
+<!-------------------------About-------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/pp2.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Aman Sayed, a passionate professional eager to explore opportunities in Graphical Designing, UI/UX Designing, Game Testing, and Digital Marketing. I am keen to combine my creativity and enthusiasm with technical skills to deliver visually appealing designs and seamless user experiences, contributing to the development and promotion of high-quality digital content.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+<!-----------------------------------------Skills, Exp, Edu---------------------------------------------------->                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App</li>
+                        <li><span>Graphical Designer</span><br>Designing Web/App</li>
+                        <li><span>Game Testing</span><br>Testing different Games</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jun 2021 - Present</span><br>VMO Admin at AKMO Consultancy</li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>Bachelors in Business Administration (Computer Appilication) - AKI Poona College of Arts, Science & Commerce</li>
+                        <li><span>2021</span><br>HSC (12th) - AKI Poona College of Arts, Science & Commerce</li>
+                        <li><span>2019</span><br>SSC (10th) - S.I.W.S. High School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------Services-------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Graphical & UI/UX Designer</h2>
+                <p>Passionate about creating visually appealing and user-friendly websites. Eager to bring innovative designs and seamless user experiences to life through web designing.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Game Tester</h2>
+                <p>Driven by a love for gaming and a keen eye for detail, I am passionate about ensuring top-notch quality and seamless gameplay experiences through meticulous game testing.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Digital Marketing</h2>
+                <p>Enthusiastic about leveraging Google Ads to drive targeted traffic and achieve marketing goals. Passionate about creating effective ad campaigns that boost engagement and conversions.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-------------------------Portfolio-------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1> 
+        <div class="work-list">
+            <div class="work">
+                <img src="images/fda.png">
+                <div class="layer">
+                    <h3>Food Delivery App</h3>
+                    <p>This app helps you order your food within minutes with ease of accessing it through your mobile phone or desktop at home using its plain and simple UI</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+            <img src="images/tt.jpeg">
+            <div class="layer">
+                <h3>Tours & Travel Website</h3>
+                <p>This website helps you order plan & book your vacation within minutes with ease of accessing it through your mobile phone or desktop at home using its plain and simple UI</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/pp.png">
+            <div class="layer">
+                <h3>PoshPinnacle Website</h3>
+                <p>This website is a simple illustration of my abilities to create and deploy fully functional/responsive websites allowing both mobile users and/or desktop users accesing it easily.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-------------------------Contact -------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> aman31feroz@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8999386413</p>
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com/in/amansayed/"><i class="fa-brands fa-linkedin"></i> Aman Sayed</a>
+                </div>
+                <a href="images/cv.pdf" download class="btn btn2">Downlaod CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Aman Sayed. Made for Professional use <i class="fa-regular fa-face-smile"></i></p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxU2IR1PwP-H-m9_ZbTl-y0V0Ha9LX5ADbHIZHc_dtlhdsLj1USkx11MZREJDSQrlW-EA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
